@@ -1,0 +1,4 @@
+node_modules
+/readme(api documentation).txt
+
+.env
