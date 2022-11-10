@@ -6,9 +6,9 @@ const ContactController = require("../controllers/ContactController");
 router.get("/", ContactController.fetchAll);
 router.get("/show", ContactController.show);
 router.post("/create", ContactController.createContact);
-router.post("/updatet", ContactController.update);
+router.post("/update", ContactController.update);
 router.post("/delete", ContactController.deleteContact);
 router.get("/fetchAll", ContactController.fetchAll);
-router.post("/export", ContactController.exportToCsv);
+router.get("/export", ContactController.exportToCsv);
 
 module.exports = router;
